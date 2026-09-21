@@ -1,0 +1,41 @@
+# Compiled firmware and binaries
+*.bin
+*.elf
+*.hex
+*.d
+*.o
+
+# Arduino IDE & Build output
+build/
+*.build/
+*.tmp
+*.bak
+*.orig
+arduino_build/
+arduino_cache/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Secrets & Local overrides
+config_local.h
+secrets.h
